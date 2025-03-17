@@ -1,0 +1,26 @@
+.cart-container {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px;
+  background-color: #f9f9f9;
+}
+
+.cart-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cart-item {
+  padding: 8px 12px;
+  margin: 4px 0;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.cart-item:hover {
+  background-color: #ffe6e6;
+}

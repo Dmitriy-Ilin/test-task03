@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Книжный магазин</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="welcome-section">
+      <h1 class="welcome-title">Классика русской литературы</h1>
+    </section>
+
+    <div class="catalog-grid">
+      <div class="book-card">
+        <img src="images//pr1.jpg" alt="Обложка" class="book-cover" />
+        <h2 class="book-title">Преступление и наказание</h2>
+        <p class="book-author">Фёдор Достоевский</p>
+        <p class="book-description">
+          Глубокий психологический роман о нравственных терзаниях студента
+          Родиона Раскольникова, совершившего убийство.
+        </p>
+        <p class="book-price">1 499 ₽</p>
+        <button class="add-to-cart">В корзину</button>
+      </div>
+
+      <div class="book-card">
+        <img src="images//id1.webp" alt="Обложка" class="book-cover" />
+        <h2 class="book-title">Идиот</h2>
+        <p class="book-author">Фёдор Достоевский</p>
+        <p class="book-description">
+          История князя Мышкина, пытающегося остаться человеком света в мире
+          корысти и страстей.
+        </p>
+        <p class="book-price">1 699 ₽</p>
+        <button class="add-to-cart">В корзину</button>
+      </div>
+
+      <div class="book-card">
+        <img src="images//br1.jpg" alt="Обложка" class="book-cover" />
+        <h2 class="book-title">Братья Карамазовы</h2>
+        <p class="book-author">Фёдор Достоевский</p>
+        <p class="book-description">
+          Последний и самый масштабный роман писателя, исследующий вечные
+          вопросы бытия через историю семьи Карамазовых.
+        </p>
+        <p class="book-price">2 199 ₽</p>
+        <button class="add-to-cart">В корзину</button>
+      </div>
+    </div>
+    <div id="cart" class="cart"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
